@@ -21,8 +21,27 @@ def train_model(model, train_loader, val_loader, num_epochs=50, learning_rate=0.
     print("="*80)
 
     start_time = time.time()
-    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-    print(f"Using device: {device}")
+
+    # GPU debugging information
+    print("\nGPU Information:")
+    print(f"CUDA available: {torch.cuda.is_available()}")
+    print(f"GPU count: {torch.cuda.device_count()}")
+    if torch.cuda.is_available():
+        print(f"GPU name: {torch.cuda.get_device_name(0)}")
+        print(f"CUDA version: {torch.version.cuda}")
+
+        # Force GPU usage
+        device = torch.device("cuda:0")
+        print(f"Using device: {device}")
+
+        # Print GPU memory information
+        print(f"GPU memory allocated: {torch.cuda.memory_allocated(0) / 1024**2:.2f} MB")
+        print(f"GPU memory reserved: {torch.cuda.memory_reserved(0) / 1024**2:.2f} MB")
+    else:
+        print("No GPU detected. Using CPU instead.")
+        device = torch.device("cpu")
+        print(f"Using device: {device}")
+
     model = model.to(device)
 
     # Create save directory if it doesn't exist
@@ -269,7 +288,27 @@ def evaluate_model(model, test_loader, class_names, save_dir='./'):
     print("="*80)
 
     start_time = time.time()
-    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+
+    # GPU debugging information
+    print("\nGPU Information:")
+    print(f"CUDA available: {torch.cuda.is_available()}")
+    print(f"GPU count: {torch.cuda.device_count()}")
+    if torch.cuda.is_available():
+        print(f"GPU name: {torch.cuda.get_device_name(0)}")
+        print(f"CUDA version: {torch.version.cuda}")
+
+        # Force GPU usage
+        device = torch.device("cuda:0")
+        print(f"Using device: {device}")
+
+        # Print GPU memory information
+        print(f"GPU memory allocated: {torch.cuda.memory_allocated(0) / 1024**2:.2f} MB")
+        print(f"GPU memory reserved: {torch.cuda.memory_reserved(0) / 1024**2:.2f} MB")
+    else:
+        print("No GPU detected. Using CPU instead.")
+        device = torch.device("cpu")
+        print(f"Using device: {device}")
+
     model = model.to(device)
     model.eval()
 
