@@ -1,0 +1,68 @@
+Epoch 1/100, Time: 4.92s, LR: 0.000500
+  Train Loss: 0.8295, Train Acc: 0.6963
+  Val Loss: 0.9158, Val Acc: 0.6639
+
+Epoch 2/100, Time: 4.58s, LR: 0.000500
+  Train Loss: 0.5181, Train Acc: 0.8119
+  Val Loss: 0.6201, Val Acc: 0.7459
+
+Epoch 3/100, Time: 4.69s, LR: 0.000500
+  Train Loss: 0.4328, Train Acc: 0.8453
+  Val Loss: 0.3992, Val Acc: 0.8750
+
+Epoch 4/100, Time: 4.56s, LR: 0.000500
+  Train Loss: 0.2347, Train Acc: 0.9239
+  Val Loss: 0.5434, Val Acc: 0.8934
+
+Epoch 5/100, Time: 4.52s, LR: 0.000500
+  Train Loss: 0.1694, Train Acc: 0.9457
+  Val Loss: 0.5509, Val Acc: 0.8648
+
+Epoch 6/100, Time: 4.55s, LR: 0.000500
+  Train Loss: 0.1068, Train Acc: 0.9679
+  Val Loss: 0.5746, Val Acc: 0.8545
+
+Epoch 7/100, Time: 4.45s, LR: 0.000500
+  Train Loss: 0.1484, Train Acc: 0.9531
+  Val Loss: 0.1766, Val Acc: 0.9467
+
+Epoch 8/100, Time: 4.55s, LR: 0.000500
+  Train Loss: 0.1251, Train Acc: 0.9642
+  Val Loss: 0.4022, Val Acc: 0.8955
+
+Epoch 9/100, Time: 4.87s, LR: 0.000500
+  Train Loss: 0.0631, Train Acc: 0.9815
+  Val Loss: 0.3376, Val Acc: 0.9180
+
+Epoch 10/100, Time: 4.79s, LR: 0.000500
+  Train Loss: 0.0673, Train Acc: 0.9823
+  Val Loss: 0.5409, Val Acc: 0.8893
+
+Epoch 11/100, Time: 4.66s, LR: 0.000500
+  Train Loss: 0.0367, Train Acc: 0.9885
+  Val Loss: 0.3004, Val Acc: 0.9098
+
+Epoch 12/100, Time: 4.69s, LR: 0.000500
+  Train Loss: 0.0964, Train Acc: 0.9749
+  Val Loss: 0.3464, Val Acc: 0.9160
+
+Epoch 13/100, Time: 4.52s, LR: 0.000250
+  Train Loss: 0.0563, Train Acc: 0.9827
+  Val Loss: 0.4530, Val Acc: 0.9139
+
+Epoch 14/100, Time: 4.51s, LR: 0.000250
+  Train Loss: 0.0499, Train Acc: 0.9877
+  Val Loss: 0.3924, Val Acc: 0.9078
+
+Epoch 15/100, Time: 4.48s, LR: 0.000250
+  Train Loss: 0.0308, Train Acc: 0.9909
+  Val Loss: 0.2483, Val Acc: 0.9406
+
+Epoch 16/100, Time: 4.48s, LR: 0.000250
+  Train Loss: 0.0331, Train Acc: 0.9909
+  Val Loss: 0.1945, Val Acc: 0.9488
+
+Epoch 17/100, Time: 4.46s, LR: 0.000250
+  Train Loss: 0.0208, Train Acc: 0.9918
+  Val Loss: 0.2047, Val Acc: 0.9467
+
