@@ -1,0 +1,68 @@
+Epoch 1/100, Time: 13.79s, LR: 0.001000
+  Train Loss: 1.3053, Train Acc: 0.5004
+  Val Loss: 1.6598, Val Acc: 0.2708
+
+Epoch 2/100, Time: 13.22s, LR: 0.001000
+  Train Loss: 1.0104, Train Acc: 0.6075
+  Val Loss: 1.1470, Val Acc: 0.5551
+
+Epoch 3/100, Time: 13.27s, LR: 0.001000
+  Train Loss: 0.8988, Train Acc: 0.6766
+  Val Loss: 1.3511, Val Acc: 0.5506
+
+Epoch 4/100, Time: 13.12s, LR: 0.001000
+  Train Loss: 0.7771, Train Acc: 0.7424
+  Val Loss: 1.1305, Val Acc: 0.6310
+
+Epoch 5/100, Time: 13.13s, LR: 0.001000
+  Train Loss: 0.6783, Train Acc: 0.7538
+  Val Loss: 1.6921, Val Acc: 0.6220
+
+Epoch 6/100, Time: 13.27s, LR: 0.001000
+  Train Loss: 0.5694, Train Acc: 0.7990
+  Val Loss: 0.7914, Val Acc: 0.7455
+
+Epoch 7/100, Time: 13.27s, LR: 0.001000
+  Train Loss: 0.5403, Train Acc: 0.8056
+  Val Loss: 0.7055, Val Acc: 0.7842
+
+Epoch 8/100, Time: 13.28s, LR: 0.001000
+  Train Loss: 0.5803, Train Acc: 0.8029
+  Val Loss: 0.8208, Val Acc: 0.7500
+
+Epoch 9/100, Time: 13.12s, LR: 0.001000
+  Train Loss: 0.4985, Train Acc: 0.8184
+  Val Loss: 0.7949, Val Acc: 0.7470
+
+Epoch 10/100, Time: 13.11s, LR: 0.001000
+  Train Loss: 0.4692, Train Acc: 0.8439
+  Val Loss: 0.9252, Val Acc: 0.7173
+
+Epoch 11/100, Time: 12.97s, LR: 0.001000
+  Train Loss: 0.4892, Train Acc: 0.8283
+  Val Loss: 0.7321, Val Acc: 0.7634
+
+Epoch 12/100, Time: 12.95s, LR: 0.001000
+  Train Loss: 0.4834, Train Acc: 0.8298
+  Val Loss: 1.4636, Val Acc: 0.6369
+
+Epoch 13/100, Time: 13.04s, LR: 0.000500
+  Train Loss: 1.0908, Train Acc: 0.5627
+  Val Loss: 1.4734, Val Acc: 0.4673
+
+Epoch 14/100, Time: 13.12s, LR: 0.000500
+  Train Loss: 0.7332, Train Acc: 0.7365
+  Val Loss: 1.2798, Val Acc: 0.6756
+
+Epoch 15/100, Time: 13.04s, LR: 0.000500
+  Train Loss: 0.6102, Train Acc: 0.8026
+  Val Loss: 1.0905, Val Acc: 0.6920
+
+Epoch 16/100, Time: 13.10s, LR: 0.000500
+  Train Loss: 0.6966, Train Acc: 0.7625
+  Val Loss: 0.9777, Val Acc: 0.6949
+
+Epoch 17/100, Time: 13.04s, LR: 0.000500
+  Train Loss: 0.5449, Train Acc: 0.8253
+  Val Loss: 1.3162, Val Acc: 0.6592
+
