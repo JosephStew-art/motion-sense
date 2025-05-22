@@ -2,3 +2,9 @@
 2 - [--window_size 500 --overlap 0.5 --output_dir results/long_window_model]
 3 - [--window_size 500 --overlap 0.5 --model_type cnnlstm --hidden_dim 256 --num_layers 3 --dropout 0.3 --batch_size 32 --num_epochs 100 --learning_rate 0.0005 --weight_decay 1e-4 --output_dir results/enhanced_cnnlstm]
 4 - (best)[--window_size 500 --overlap 0.5 --model_type cnnlstm --hidden_dim 256 --num_layers 3 --dropout 0.3 --batch_size 32 --num_epochs 100 --learning_rate 0.0005 --weight_decay 1e-4 --output_dir results/enhanced_cnnlstm_gpu]
+5 - [--window_size 500 --overlap 0.8 --model_type cnnlstm --hidden_dim 256 --num_layers 3 --dropout 0.3 --batch_size 32 --num_epochs 100 --learning_rate 0.0005 --weight_decay 1e-4 --output_dir results/enhanced_cnnlstm_gpu]
+6 - [--window_size 750 --overlap 0.5 --model_type cnnlstm --hidden_dim 256 --num_layers 3 --dropout 0.3 --batch_size 32 --num_epochs 100 --learning_rate 0.0005 --weight_decay 1e-4 --output_dir results/enhanced_cnnlstm_gpu]
+7 - [--window_size 256 --overlap 0.5 --model_type cnnlstm --hidden_dim 256 --num_layers 3 --dropout 0.3 --batch_size 32 --num_epochs 100 --learning_rate 0.0005 --weight_decay 1e-4 --output_dir results/enhanced_cnnlstm_gpu]
+8 - [--window_size 512 --overlap 0.5 --model_type cnnlstm --hidden_dim 256 --num_layers 3 --dropout 0.3 --batch_size 32 --num_epochs 100 --learning_rate 0.0005 --weight_decay 1e-4 --output_dir results/enhanced_cnnlstm_gpu]
+9 - [--window_size 500 --overlap 0.3 --model_type cnnlstm --hidden_dim 256 --num_layers 3 --dropout 0.3 --batch_size 32 --num_epochs 100 --learning_rate 0.0005 --weight_decay 1e-4 --output_dir results/enhanced_cnnlstm_gpu]
+10 - 
