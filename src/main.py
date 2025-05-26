@@ -157,6 +157,7 @@ def main():
     evaluate_model(model, test_loader, class_names, save_dir=args.output_dir)
 
     print(f"Results saved to {args.output_dir}")
+    print('\a\a\a\a\a')
 
 if __name__ == "__main__":
     main()

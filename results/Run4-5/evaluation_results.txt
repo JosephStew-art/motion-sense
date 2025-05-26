@@ -1,0 +1,58 @@
+==================================================
+MODEL EVALUATION RESULTS
+==================================================
+
+Overall Metrics:
+Test Accuracy: 0.9218
+Test Precision: 0.9259
+Test Recall: 0.9218
+Test F1 Score: 0.9221
+
+Detailed Classification Report:
+              precision    recall  f1-score   support
+
+  Downstairs     0.8438    0.6667    0.7448        81
+    Upstairs     0.7068    0.8545    0.7737       110
+     Sitting     1.0000    1.0000    1.0000       293
+    Standing     1.0000    1.0000    1.0000       237
+     Walking     0.8629    0.8699    0.8664       246
+     Jogging     1.0000    0.9149    0.9556        94
+
+    accuracy                         0.9218      1061
+   macro avg     0.9022    0.8843    0.8901      1061
+weighted avg     0.9259    0.9218    0.9221      1061
+
+
+Confusion Matrix:
+[[ 54   7   0   0  20   0]
+ [  9  94   0   0   7   0]
+ [  0   0 293   0   0   0]
+ [  0   0   0 237   0   0]
+ [  1  31   0   0 214   0]
+ [  0   1   0   0   7  86]]
+
+Normalized Confusion Matrix:
+[[0.66666667 0.08641975 0.         0.         0.24691358 0.        ]
+ [0.08181818 0.85454545 0.         0.         0.06363636 0.        ]
+ [0.         0.         1.         0.         0.         0.        ]
+ [0.         0.         0.         1.         0.         0.        ]
+ [0.00406504 0.12601626 0.         0.         0.8699187  0.        ]
+ [0.         0.0106383  0.         0.         0.07446809 0.91489362]]
+
+ROC AUC Scores:
+  Downstairs: 0.9757
+  Upstairs: 0.9723
+  Sitting: 1.0000
+  Standing: 1.0000
+  Walking: 0.9808
+  Jogging: 0.9998
+
+Average Precision Scores:
+  Downstairs: 0.8070
+  Upstairs: 0.8133
+  Sitting: 1.0000
+  Standing: 1.0000
+  Walking: 0.9539
+  Jogging: 0.9985
+
+Evaluation completed in 0.75 seconds

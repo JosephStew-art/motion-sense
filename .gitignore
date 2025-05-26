@@ -5,3 +5,4 @@ results/*/epoch*
 results/*/training_history.csv
 results/*/test_predictions.csv
 *.pth
+*.zip

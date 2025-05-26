@@ -143,3 +143,6 @@ sns.heatmap(corr, annot=True, fmt=".2f", cmap="coolwarm", square=True, cbar_kws=
 plt.title("Correlation Heatmap")
 plt.tight_layout()
 plt.show()
+print('\a')
+print('\a')
+print('\a')
